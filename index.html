@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Romantic Memories ✨</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>💕 Romantic Memories 💕</h1>
+    <p class="subtitle">Capture your precious moments with love songs</p>
+
+    <div class="section">
+      <h2>Upload Your Photos</h2>
+      <div class="upload-area" onclick="document.getElementById('photo-input').click()">
+        <div class="upload-text">Click to add your beautiful memories</div>
+        <div class="upload-subtext">Select multiple photos to create your romantic collection</div>
+      </div>
+      <input type="file" id="photo-input" multiple accept="image/*" />
+      <div id="photo-preview"></div>
+      <div class="memory-count" id="memory-count">No memories yet - start by adding your first photo! 💖</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
